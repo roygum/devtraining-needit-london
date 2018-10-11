@@ -30,7 +30,7 @@
     // two facilities choices and other to the What needed field
     // choice list
     if (newValue == 'facilities') {
-        g_form.clearMessages();
+        //g_form.clearMessages();
 		g_form.addInfoMessage('This is the Facilities Department');
 		g_form.addDecoration('u_request_type', 'icon-lightbulb', 'Mark as Favorite', 'color-red');
 		g_form.addOption('u_what_needed', 'facilities1', 'Facilities 1');
@@ -57,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fff4ad589f013200bde5f79ff57fcf84</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>NeedIt Request Type Options</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -65,7 +65,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_fff4ad589f013200bde5f79ff57fcf84</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-10 21:51:54</sys_updated_on>
+        <sys_updated_on>2018-10-11 14:45:51</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
